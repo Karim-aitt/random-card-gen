@@ -3,7 +3,7 @@ let number = document.getElementById("number");
 
 // --------------------------------------- RANDOM CARTA
 let cartas = ["./images/corazon.png", "./images/diamante.png", "./images/pica.png", "./images/trebol.png"]
-let randomNaipe = Math.floor(Math.random()*5);
+let randomNaipe = Math.floor(Math.random()*4);
 
 // --------------------------------------- RANDOM NUMBER
 let randomNumber = Math.floor(Math.random()*(13 - 2 + 1)) + 2;
