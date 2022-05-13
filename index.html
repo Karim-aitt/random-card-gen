@@ -16,16 +16,26 @@
 
     <title>Random card generator</title>
 </head>
-<body class="d-flex flex-column justify-content-center">
+<body 
+class="
+d-flex 
+flex-column 
+justify-content-center
+"
+style="background-color: rgb(14, 61, 14);"
+>
+
+    <div class="navbar navbar-light bg-success">
+        <h1 class="mx-auto">Random Card Generator</h1>
+    </div>
 
     <div 
     style="
-    min-width: 213px; 
-    border-radius: 30px"
+    width: 200px;
+    border-radius: 10px"
 
     class="
     container
-    w-25
     
     border
     border-3 
@@ -35,6 +45,7 @@
     d-inline-flex
     flex-column
     mt-4
+    bg-light
     ">
 
         <div 
@@ -73,16 +84,48 @@
 
     </div>
 
-    <button 
+    <div class="d-flex text-center">
+        <button 
     id="otraCarta"
     class="
+    
+    btn
+    btn-success
+    ms-auto
+    me-2
+    mt-4
+    ">
+        Carta
+    </button>
+
+    <button
+    id="start"
+    class="
+    
+    btn
+    btn-success
+    me-auto
+    ms-2
+    mt-4
+    ">
+        Cada 10 segundos
+    </button>
+
+    <button
+    
+    id="stop"
+    class="
+    visually-hidden
     btn
     btn-success
     mx-auto
-    my-3
+    mt-4
     ">
-        Otra carta
+        Parar
     </button>
+
+    </div>
+    
 
 <script src="app.js"></script>
 </body>
